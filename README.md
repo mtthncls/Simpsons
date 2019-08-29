@@ -4,66 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # Simpsons
+Homer prend une pause...
+Cette fois-ci, on reste dans l'application simpsons-quotes pour le challenge. Tu vas donc devoir créer le dépôt sur GitHub pour pouvoir pousser le code écrit depuis la 1ère quête.
+
+Inspire-toi de ce qu'on vient de faire, pour :
+
+Ajouter un state au composant App, contenant une seule propriété working, booléenne, indiquant si Homer travaille (true) ou s'il est en pause (false).
+Ajouter un bouton permettant de modifier la valeur de working dans le state.
+En fonction de cette valeur, modifier l'animation du symbole "Atome", qui est le logo de React. Tu peux pour cela ajouter une classe juste sous App-logo, dans App.css, et changer l'animation du logo en fonction du state : soit l'accélérer, soit créer un autre @keyframes en remplaçant transform: rotate(...) par transform: scale(...). Tu peux aussi tenter autre chose d'original, du moment que le state de App est modifié par le bouton, et que l'affichage change en conséquence.
+Commit et push le tout sur GitHub à la fin, et poste le lien du dépôt.
+
+Critères de validation
+Présence d'un bouton pour changer le state de App
+Modification de l'affichage en fonction du state
